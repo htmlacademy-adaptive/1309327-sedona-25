@@ -1,7 +1,7 @@
 # Личный проект «Седона» 
 
 * Студент: [Анна Самусева](https://up.htmlacademy.ru/adaptive/25/user/1309327).
-* Наставник: `Неизвестно`.
+* Наставник: [Константин Соколов](https://htmlacademy.ru/profile/k_sokolov).
 
 ---
 
