@@ -10,19 +10,19 @@
         <img class="main-header__logo-image" src="img/logotype-phone.png" width="100" height="84" alt="Седона">
       </a>
       <nav class="main-nav">
-        <button class="main-nav__burger" type="button"></button>
+        <button class="main-nav__burger" type="button">Бургер кнопка</button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list">
             <li class="main-nav__item main-nav__item--active">
               <a href="/">Главная</a>
             </li>
-            <li class="main-nav__item main-nav__item--active">
+            <li class="main-nav__item">
               <a href="photo.html">Фото и видео</a>
             </li>
-            <li class="main-nav__item main-nav__item--active">
+            <li class="main-nav__item">
               <a href="form.html">Форма отзыва</a>
             </li>
-            <li class="main-nav__item main-nav__item--active">
+            <li class="main-nav__item">
               <a href="#">HTML Academy</a>
             </li>
           </ul>
@@ -34,18 +34,21 @@
         городок в Аризоне,<br>
         заслуживающий большего!
       </h1>
-      <header class="cover-header">
-        <img class="cover-header__photo" src="img/back-mobile.jpg" alt="Фото-подложка">
-        <p class="cover-header__slogan"><span class="cover-header__slogan-element-one">Welcome</span><br>
-        <span class="cover-header__slogan-element-two">to the gorgeous</span><br>
-        <span class="cover-header__slogan-place-name">Sedona</span><br>
-        <span class="cover-header__slogan-prank"><q>because the Grand Canyon sucks!</q></span>
-      </main>
-      </header>
+      <div class="cover">
+        <img class="cover__photo" src="img/back-mobile.jpg" alt="Фото-подложка">
+        <p class="cover__slogan">
+          <span class="cover__slogan-element-one">Welcome</span><br>
+          <span class="cover__slogan-element-two">to the gorgeous</span><br>
+          <span class="cover__slogan-place-name">Sedona</span><br>
+          <span class="cover__slogan-prank">
+            <q>because the Grand Canyon sucks!</q>
+          </span>
+        </p>
+      </div>
       <section class="advantages">
         <div class="advantages-wrapper">
           <h2 class="advantages__header">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</h2>
-          <ul class="advantages__list">
+          <ol class="advantages__list">
             <li class="advantages__item advantage">
               <h3 class="advantage__title">Настоящий городок</h3>
               <p class="advantage__number">— №1 —</p>
@@ -87,7 +90,7 @@
               <p class="advantage__number">— №5 —</p>
               <p class="advantage__description">Большинство едет в гранд каньон и толпится там</p>
             </li>
-          </ul>
+          </ol>
       </div>
       </section>
       <section class="offer">
