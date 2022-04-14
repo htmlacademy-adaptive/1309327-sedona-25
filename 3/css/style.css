@@ -1,0 +1,139 @@
+.advantage__item--highlight {
+  background-color: #81b3d2;
+  color: #ffffff;
+}
+.advantage__title {
+  font-size: 18px;
+  font-weight: 700;
+}
+.advantage__detail-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.advantage__detail-item-header {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+.advantages__list-item {
+  background-color: #eeeeee;
+}
+.advantages__header {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+}
+.button {
+  font-size: 21px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+.copyright__text {
+  font-weight: 400;
+}
+.cover {
+  height: 389px;
+  background-image: url("../../img/back-mobile.jpg");
+}
+.cover__slogan-element-one {
+  font-size: 27.5px;
+  font-weight: bold;
+  color: #81b3d3;
+}
+.cover__slogan-element-two {
+  font-size: 16px;
+  font-style: italic;
+  text-transform: lowercase;
+  color: #766458;
+}
+.cover__slogan-place-name {
+  font-size: 49px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.cover__slogan-prank {
+  font-size: 24px;
+  font-style: italic;
+  text-transform: initial;
+  color: #ffffff;
+}
+.header-slogan {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 26px;
+}
+.main-container {
+  margin: 0;
+  padding: 0;
+}
+.main-footer__hashtag-hash {
+  font-size: 21px;
+  font-weight: 700;
+  color: #000000;
+}
+.main-header__logo {
+  display: flex;
+  width: 0;
+  height: 0;
+  border-width: 96px;
+  border-style: solid;
+  border-color: #81b3d3;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-style: none;
+  justify-content: center;
+}
+.main-header__logo-image {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 101px;
+  height: 84px;
+  top: 0;
+  z-index: 100;
+}
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.main-nav__item {
+  background-color: #81b3d2;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.map {
+  margin: 0;
+  padding: 0;
+}
+.offer-header {
+  font-size: 21px;
+  font-weight: 700;
+}
+.page {
+  height: 100%;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+.page__body {
+  min-height: 100%;
+  margin: 0;
+  background-color: #ffffff;
+  color: #333333;
+}
+.social__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.social__item {
+  background-color: #81b3d3;
+}
+/*# sourceMappingURL=style.css.map */
