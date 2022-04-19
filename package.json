@@ -16,6 +16,8 @@
   },
   "scripts": {
     "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint .",
+    "lint": "npm run editorconfig",
     "build": "gulp styles",
     "start": "gulp"
   },
