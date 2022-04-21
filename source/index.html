@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page__body">
     <header class="main-header">
@@ -35,13 +36,12 @@
         заслуживающий большего!
       </h1>
       <div class="cover">
-        <img class="cover__photo" src="img/back-mobile.jpg" alt="Фото-подложка">
         <p class="cover__slogan">
           <span class="cover__slogan-element-one">Welcome</span><br>
           <span class="cover__slogan-element-two">to the gorgeous</span><br>
           <span class="cover__slogan-place-name">Sedona</span><br>
           <span class="cover__slogan-prank">
-            <q>because the Grand Canyon sucks!</q>
+            <q>Because the Grand Canyon sucks!</q>
           </span>
         </p>
       </div>
@@ -50,8 +50,10 @@
           <h2 class="advantages__header">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</h2>
           <ol class="advantages__list">
             <li class="advantages__item advantage">
-              <h3 class="advantage__title">Настоящий городок</h3>
-              <p class="advantage__description">Седона не аттракцион для туристов, там течет своя жизнь</p>
+              <div class="advantage__item advantage__item--highlight">
+                <h3 class="advantage__title">Настоящий городок</h3>
+                <p class="advantage__description">Седона не аттракцион для туристов, там течет своя жизнь</p>
+              </div>
               <img class="advantage__image" src="./img/photo-city@1x1.png" alt="Фото городка">
               <ul class="advantage__detail-list">
                 <li class="advantage__detail-item advantage__detail-item-accomodation">
@@ -69,8 +71,10 @@
               </ul>
             </li>
             <li class="advantages__item advantage">
-              <h3 class="advantage__title">Там есть мост дьявола</h3>
-              <p class="advantage__description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+              <div class="advantage__item--highlight">
+                <h3 class="advantage__title">Там есть мост дьявола</h3>
+                <p class="advantage__description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+              </div>
               <img class="advantage__image" src="./img/photo-bridge@1x1.png" alt="Фото моста">
             </li>
             <li class="advantages__item advantage advantage--inactive">
