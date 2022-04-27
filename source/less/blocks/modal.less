@@ -1,0 +1,39 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  width: 280px;
+  height: 240px;
+  background-color: @white;
+  border: 1px solid #000000;
+  padding: 40px;
+}
+
+.modal__header {
+  margin: 0;
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+.modal__description {
+  margin: 0;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.modal__button {
+  display: block;
+  margin: auto;
+}
+
+.modal--success {
+  height: 263px;
+  background: linear-gradient(to bottom, @white 70%, #f2f2f2 70%);
+  padding-bottom: 20px;
+}
+
+.modal--success .modal__button {
+  margin-bottom: 0;
+  align-self: flex-end;
+}

@@ -1,10 +1,15 @@
 .cover {
   display: flex;
+  min-width: 320px;
   height: 389px;
   width: 100%;
   background-image: url("../../img/back-desktop.jpg");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.cover--form {
+  height: 158px;
 }
 
 .cover__slogan {
@@ -51,7 +56,17 @@
     max-width: 1200px;
   }
 
+  .cover--form {
+    height: 290px;
+  }
+
   .cover__slogan {
     margin: 77px auto 100px auto;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .cover--form {
+    height: 301px;
   }
 }
