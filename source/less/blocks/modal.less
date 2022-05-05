@@ -20,6 +20,7 @@
   margin: 0;
   margin-bottom: 28px;
   text-align: center;
+  text-indent: 0;
 }
 
 .modal__button {
@@ -36,4 +37,31 @@
 .modal--success .modal__button {
   margin-bottom: 0;
   align-self: flex-end;
+}
+
+@media (min-width: @tablet-width) {
+  .modal {
+    width: 307px;
+    height: 347px;
+    padding: 46px;
+  }
+
+  .modal__header {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .modal__button {
+    width: 272px;
+  }
+
+  .modal--success {
+    width: 640px;
+    background: linear-gradient(to bottom, @white 58%, #f2f2f2 58%);
+    padding-bottom: 20px;
+  }
+
+  .modal--success .modal__button {
+    margin-bottom: 44px;
+  }
 }
