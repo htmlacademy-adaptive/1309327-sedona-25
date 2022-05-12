@@ -1,0 +1,99 @@
+.advantage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.advantage__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+}
+
+.advantage__item--highlight {
+  background-color: @lightblue;
+  color: @white;
+}
+
+.advantage__title {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+}
+
+.advantage__description {
+  text-align: center;
+  width: 100%;
+}
+
+.advantage__detail-list {
+  margin: 0;
+  margin-left: 65px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.advantage__detail-item-header {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+
+@media (min-width: @tablet-width) {
+  .advantage__item {
+    grid-area: title;
+    height: 256px;
+    min-width: 256px;
+    width: 100%;
+  }
+
+  .advantage__item--revert {
+    grid-area: titleRevert;
+  }
+
+  .advantage__image {
+    grid-area: image;
+    height: 256px;
+    width: 100%;
+  }
+
+  .advantage__image--revert {
+    grid-area: imageRevert;
+  }
+
+  .advantage__detail-list {
+    display: grid;
+    grid-area: detail;
+    grid-template-areas: "detail1 detail2 detail3";
+    height: 330px;
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .advantage__detail-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .advantage__detail-item-description {
+    text-align: center;
+    padding: 30px;
+  }
+
+  .advantage__detail-item-accomodation {
+    grid-area: detail1;
+  }
+
+  .advantage__detail-item-food {
+    grid-area: detail2;
+  }
+
+  .advantage__detail-item-souvenirs {
+    grid-area: detail3;
+  }
+}
