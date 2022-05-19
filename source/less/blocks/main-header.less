@@ -2,8 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-self: center;
   background-color: @white;
   color: @black;
+  min-width: 320px;
+  width: 100%;
+  height: 56px;
 }
 
 .main-header__logo {
@@ -12,22 +16,16 @@
   justify-content: center;
   width: 185px;
   height: 96px;
-  top: 0;
-  z-index: 100;
+  z-index: 1;
   background-color: @lightblue;
-  border-style: solid;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-bottom-style: none;
 }
 
 .main-header__logo-image {
-  position: absolute;
   margin: 0;
   padding: 0;
   width: 101px;
-  top: 0;
-  z-index: 100;
+  height: 84px;
+  z-index: 2;
 }
 
 @media (min-width: @desktop-width) {

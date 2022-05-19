@@ -2,6 +2,7 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Седона. Форма.</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -37,45 +38,59 @@
         </p>
       </div>
       <section class="catalog">
-        <h1 class="catalog-header">Фото и видео</h1>
-        <p class="catalog-description">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
+        <div class="catalog__title">
+          <h1 class="catalog__header">Фото и видео</h1>
+          <p class="catalog__description">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
+        </div>
         <ul class="catalog__list" >
           <li class="catalog__item">
-            <img class="catalog__image" src="./img/photo-1-mobile.jpg" alt="Вид дороги">
-            <h2 class="catalog__item-title">Неродные просторы</h2>
-            <p class="catalog__item-author">Автор фото: Борис</p>
-            <div class="catalog__item-like-icon">
-              <span class="catalog__item-likes-count">1350</span>
+            <img class="catalog__image catalog__image--size" src="./img/photo-1-mobile.jpg" alt="Вид дороги">
+            <div class="catalog__image-details">
+              <h2 class="catalog__item-title">Неродные просторы</h2>
+              <p class="catalog__item-author">Автор фото: Борис</p>
+              <div class="catalog__item-like-icon">
+                <span class="catalog__item-likes-count">1350</span>
+              </div>
             </div>
           </li>
-          <li class="catalog__item">
-            <img class="catalog__image" src="./img/photo-2-mobile.jpg" alt="Вид растительности">
-            <h2 class="catalog__item-title">Местная растительность</h2>
-            <p class="catalog__item-author">Автор фото: Сергей</p>
-            <div class="catalog__item-like-icon">
-              <span class="catalog__item-likes-count">143</span>
-            </div>
-          </li>
-          <li class="catalog__item">
-            <img class="catalog__image" src="./img/photo-3-mobile.jpg" alt="Вид дороги на север">
-            <h2 class="catalog__item-title">Дорога на север</h2>
-            <p class="catalog__item-author">Автор фото: Петр</p>
-            <div class="catalog__item-like-icon">
-              <span class="catalog__item-likes-count">96</span>
-            </div>
-          </li>
-          <li class="catalog__item">
-            <img class="catalog__image" src="./img/photo-4-desktop1.jpg" alt="Мост дьявола">
-            <h2 class="catalog__item-title">Мост дьявола</h2>
-            <p class="catalog__item-author">Автор фото: Антон</p>
-            <div class="catalog__item-like-icon">
-              <span class="catalog__item-likes-count">254</span>
-            </div>
-          </li>
+          <div class="catalog__items-container">
+            <li class="catalog__item">
+              <img class="catalog__image" src="./img/photo-2-mobile.jpg" alt="Вид растительности">
+              <div class="catalog__image-details">
+                <h2 class="catalog__item-title">Местная растительность</h2>
+                <p class="catalog__item-author">Автор фото: Сергей</p>
+                <div class="catalog__item-like-icon">
+                  <span class="catalog__item-likes-count">143</span>
+                </div>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <img class="catalog__image" src="./img/photo-3-mobile.jpg" alt="Вид дороги на север">
+              <div class="catalog__image-details">
+                <h2 class="catalog__item-title">Дорога на север</h2>
+                <p class="catalog__item-author">Автор фото: Петр</p>
+                <div class="catalog__item-like-icon">
+                  <span class="catalog__item-likes-count">96</span>
+                </div>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <img class="catalog__image" src="./img/photo-4-desktop1.jpg" alt="Мост дьявола">
+              <div class="catalog__image-details">
+                <h2 class="catalog__item-title">Мост дьявола</h2>
+                <p class="catalog__item-author">Автор фото: Антон</p>
+                <div class="catalog__item-like-icon">
+                  <span class="catalog__item-likes-count">254</span>
+                </div>
+              </div>
+            </li>
+          </div>
         </ul>
         <div class="catalog__offer">
-          <h1 class="catalog__offer-header">Все еще сомневаетесь?</h1>
-          <p class="catalog__offer-description">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
+          <div class="catalog__offer-title">
+            <h1 class="catalog__offer-header">Все еще сомневаетесь?</h1>
+            <p class="catalog__offer-description">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
+          </div>
           <video src="#" class="catalog__video" poster="./img/video-mobile.jpg" muted preload="auto"></video>
         </div>
       </section>

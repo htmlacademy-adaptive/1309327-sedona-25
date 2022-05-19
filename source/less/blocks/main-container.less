@@ -9,10 +9,25 @@
 
 .main-container .cover {
   margin: 0;
-  margin-top: 56px;
   order: -1;
 }
 
 .main-container h1 {
   margin: 32 20 35 20;
+}
+
+.main-container form {
+  display: block;
+}
+
+@media (min-width: @tablet-width) {
+  .main-container--form {
+    padding: 0 60px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .main-container--form {
+    padding: 0 120px;
+  }
 }
